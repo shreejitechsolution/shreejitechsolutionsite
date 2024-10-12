@@ -98,7 +98,7 @@
 			--e-global-color-oxence_custom1_color: #fc653c
 		}
 	</style>
-	<link rel='stylesheet' id='oxence-style-css' href={{9'wp-content/themes/oxence/style578f.css?ver=1.2.6')}} media='all' />
+	<link rel='stylesheet' id='oxence-style-css' href={{asset('wp-content/themes/oxence/style578f.css?ver=1.2.6')}} media='all' />
 	<link rel='stylesheet' id='elementor-icons-css'
 		href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine94d.css?ver=5.30.0' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
