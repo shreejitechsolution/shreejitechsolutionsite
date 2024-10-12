@@ -1,6 +1,6 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
-    
+
 <!-- Mirrored from wp.webtendtheme.net/oxence/dark/about-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Oct 2024 04:13:52 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -61,7 +61,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
         :root {
             --oxence-primary-font: Roboto; --oxence-secondary-font: Merriweather; --oxence-primary-color:#3180fc; --oxence-secondary-color:#ffffff; --oxence-body-color:#c2ceed; --oxence-headline-color:#ffffff; --oxence-border-color:#27324c; --oxence-dark-color:#0b1630; --oxence-white-color:#ffffff; --oxence-custom1-color:#fc653c; --e-global-color-oxence_primary:#3180fc; --e-global-color-oxence_secondary:#ffffff; --e-global-color-oxence_body:#c2ceed; --e-global-color-oxence_headline:#ffffff; --e-global-color-oxence_border:#27324c; --e-global-color-oxence_dark:#0b1630; --e-global-color-oxence_white:#ffffff; --e-global-color-oxence_custom1_color:#fc653c
         }
-        
+
 </style>
 <link rel='stylesheet' id='oxence-style-css' href='../wp-content/themes/oxence/style578f.css?ver=1.2.6' media='all' />
 <link rel='stylesheet' id='elementor-icons-css' href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine94d.css?ver=5.30.0' media='all' />
@@ -367,7 +367,7 @@ var woocommerce_params = {"ajax_url":"\/oxence\/dark\/wp-admin\/admin-ajax.php",
                     <div class="cart-close"><i class="far fa-times"></i></div>
                     <div class="widget_shopping_cart">
                         <div class="widget_shopping_cart_content">
-							
+
 
 	<p class="woocommerce-mini-cart__empty-message">No products in the cart.</p>
 
@@ -377,7 +377,7 @@ var woocommerce_params = {"ajax_url":"\/oxence\/dark\/wp-admin\/admin-ajax.php",
                 </div>
             </div>
 		    <main id="content" class="site-main">
-        
+
 <div class="page-title-area">
     <div class="container">
         <div class="page-title-inner">
