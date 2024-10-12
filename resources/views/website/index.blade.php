@@ -98,7 +98,7 @@
 			--e-global-color-oxence_custom1_color: #fc653c
 		}
 	</style>
-	<link rel='stylesheet' id='oxence-style-css' href='wp-content/themes/oxence/style578f.css?ver=1.2.6' media='all' />
+	<link rel='stylesheet' id='oxence-style-css' href={{9'wp-content/themes/oxence/style578f.css?ver=1.2.6')}} media='all' />
 	<link rel='stylesheet' id='elementor-icons-css'
 		href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine94d.css?ver=5.30.0' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
@@ -2223,7 +2223,7 @@
 															height="681"
 															src="wp-content/uploads/sites/3/2022/09/front-end-hero.png"
 															class="attachment-full size-full wp-image-2140" alt=""
-														
+
 															sizes="(max-width: 868px) 100vw, 868px" />
 													</div>
 												</div>
