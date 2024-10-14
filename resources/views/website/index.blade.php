@@ -50,9 +50,9 @@
 	</style>
 
 	<link rel='stylesheet' id='contact-form-7-css'
-		href='wp-content/plugins/contact-form-7/includes/css/stylesa950.css?ver=5.9.6' media='all' />
+		href={{('wp-content/plugins/contact-form-7/includes/css/stylesa950.css?ver=5.9.6')}} media='all' />
 	<link rel='stylesheet' id='woocommerce-layout-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout8257.css?ver=9.0.1' media='all' />
+		href={{asset('wp-content/plugins/woocommerce/assets/css/woocommerce-layout8257.css?ver=9.0.1')}} media='all' />
 	<link rel='stylesheet' id='woocommerce-smallscreen-css'
 		href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen8257.css?ver=9.0.1'
 		media='only screen and (max-width: 768px)' />
