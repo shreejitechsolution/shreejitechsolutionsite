@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="profile" href="{{asset('https://gmpg.org/xfn/11')}}">
 
 	<title>Oxence Dark &#8211; Web Design Company WordPress Theme</title>
 	<meta name='robots' content='max-image-preview:large' />
-	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel='dns-prefetch' href='{{asset('http://fonts.googleapis.com/')}}' />
 	<link rel="alternate" type="application/rss+xml" title="Oxence Dark &raquo; Feed" href="feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="Oxence Dark &raquo; Comments Feed"
 		href="comments/feed/index.html" />
