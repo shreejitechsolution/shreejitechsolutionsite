@@ -126,7 +126,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<script src="{{asset('wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1')}}" id="jquery-core-js"></script>
 	<script src="{{asset('wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1')}}" id="jquery-migrate-js"></script>
-	<script src="{{assset('wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.mine9e1.js?ver=2.7.0-wc.9.0.1')}}"
+	<script src="{{asset('wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.mine9e1.js?ver=2.7.0-wc.9.0.1')}}"
 		id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 	<script id="wc-add-to-cart-js-extra">
 		var wc_add_to_cart_params = { "ajax_url": "\/oxence\/dark\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/oxence\/dark\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/wp.webtendtheme.net\/oxence\/dark\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
