@@ -8,7 +8,7 @@
 	<title>Oxence Dark &#8211; Web Design Company WordPress Theme</title>
 	<meta name='robots' content='max-image-preview:large' />
 	<link rel='dns-prefetch' href='{{asset('http://fonts.googleapis.com/')}}' />
-	<link rel="alternate" type="application/rss+xml" title="Oxence Dark &raquo; Feed" href="feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="Oxence Dark &raquo; Feed" href="{{asset('feed/index.html')}}" />
 	<link rel="alternate" type="application/rss+xml" title="Oxence Dark &raquo; Comments Feed"
 		href="comments/feed/index.html" />
 	<script>
@@ -50,31 +50,31 @@
 	</style>
 
 	<link rel='stylesheet' id='contact-form-7-css'
-		href={{('wp-content/plugins/contact-form-7/includes/css/stylesa950.css?ver=5.9.6')}} media='all' />
+		href="{{asset('wp-content/plugins/contact-form-7/includes/css/stylesa950.css?ver=5.9.6')}}" media='all' />
 	<link rel='stylesheet' id='woocommerce-layout-css'
-		href={{asset('wp-content/plugins/woocommerce/assets/css/woocommerce-layout8257.css?ver=9.0.1')}} media='all' />
+		href="{{asset('wp-content/plugins/woocommerce/assets/css/woocommerce-layout8257.css?ver=9.0.1')}}" media='all' />
 	<link rel='stylesheet' id='woocommerce-smallscreen-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen8257.css?ver=9.0.1'
+		href="{{asset('wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen8257.css?ver=9.0.1')}}"
 		media='only screen and (max-width: 768px)' />
 	<link rel='stylesheet' id='woocommerce-general-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce8257.css?ver=9.0.1' media='all' />
+		href="{{asset('wp-content/plugins/woocommerce/assets/css/woocommerce8257.css?ver=9.0.1')}}" media='all' />
 	<style id='woocommerce-inline-inline-css'>
 		.woocommerce form .form-row .required {
 			visibility: visible;
 		}
 	</style>
 	<link rel='stylesheet' id='oxence-fonts-css'
-		href='https://fonts.googleapis.com/css?family=Roboto%3A300i%2C300%2C400i%2C400%2C500i%2C500%2C600%2C700%2C800%7CMerriweather%3A300i%2C300%2C400i%2C400%2C700i%2C700%2C900&amp;subset=latin'
+		href="{{asset('https://fonts.googleapis.com/css?family=Roboto%3A300i%2C300%2C400i%2C400%2C500i%2C500%2C600%2C700%2C800%7CMerriweather%3A300i%2C300%2C400i%2C400%2C700i%2C700%2C900&amp;subset=latin')}}"
 		media='all' />
 	<link rel='stylesheet' id='fontawesome-css'
-		href='wp-content/themes/oxence/assets/css/font-awesome.mine1cc.css?ver=5.14' media='all' />
+		href='{{asset('wp-content/themes/oxence/assets/css/font-awesome.mine1cc.css?ver=5.14')}}' media='all' />
 	<link rel='stylesheet' id='slick-css' href='wp-content/themes/oxence/assets/css/slick.minc245.css?ver=1.8.1'
 		media='all' />
 	<link rel='stylesheet' id='magnific-popup-css'
-		href='wp-content/themes/oxence/assets/css/magnific-popup.minf488.css?ver=1.1.0' media='all' />
-	<link rel='stylesheet' id='animation-css' href='wp-content/themes/oxence/assets/css/animations.min5152.css?ver=1.0'
+		href='{{asset('wp-content/themes/oxence/assets/css/magnific-popup.minf488.css?ver=1.1.0')}}' media='all' />
+	<link rel='stylesheet' id='animation-css' href='{{asset('wp-content/themes/oxence/assets/css/animations.min5152.css?ver=1.0')}}'
 		media='all' />
-	<link rel='stylesheet' id='oxence-theme-css' href='wp-content/themes/oxence/assets/css/theme.min578f.css?ver=1.2.6'
+	<link rel='stylesheet' id='oxence-theme-css' href='{{asset('wp-content/themes/oxence/assets/css/theme.min578f.css?ver=1.2.6')}}'
 		media='all' />
 	<style id='oxence-theme-inline-css'>
 		:root {
@@ -98,59 +98,59 @@
 			--e-global-color-oxence_custom1_color: #fc653c
 		}
 	</style>
-	<link rel='stylesheet' id='oxence-style-css' href={{asset('wp-content/themes/oxence/style578f.css?ver=1.2.6')}} media='all' />
+	<link rel='stylesheet' id='oxence-style-css' href='{{asset('wp-content/themes/oxence/style578f.css?ver=1.2.6')}}' media='all' />
 	<link rel='stylesheet' id='elementor-icons-css'
-		href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine94d.css?ver=5.30.0' media='all' />
+		href='{{asset('wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mine94d.css?ver=5.30.0')}}' media='all' />
 	<link rel='stylesheet' id='elementor-frontend-css'
-		href='wp-content/uploads/sites/3/elementor/css/custom-frontend-lite.min0406.css?ver=1719260856' media='all' />
+		href='{{asset('wp-content/uploads/sites/3/elementor/css/custom-frontend-lite.min0406.css?ver=1719260856')}}' media='all' />
 	<link rel='stylesheet' id='swiper-css'
-		href='wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
+		href='{{asset('wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5')}}' media='all' />
 	<link rel='stylesheet' id='elementor-post-3763-css'
-		href='wp-content/uploads/sites/3/elementor/css/post-37630406.css?ver=1719260856' media='all' />
+		href='{{asset('wp-content/uploads/sites/3/elementor/css/post-37630406.css?ver=1719260856')}}' media='all' />
 	<link rel='stylesheet' id='elementor-post-2934-css'
-		href='wp-content/uploads/sites/3/elementor/css/post-2934850d.css?ver=1719260857' media='all' />
+		href='{{asset('wp-content/uploads/sites/3/elementor/css/post-2934850d.css?ver=1719260857')}}' media='all' />
 	<link rel='stylesheet' id='google-fonts-1-css'
-		href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.5.5'
+		href='{{asset('https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMerriweather%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.5.5')}}'
 		media='all' />
 	<link rel='stylesheet' id='elementor-icons-shared-0-css'
-		href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3'
+		href='{{asset('wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3')}}'
 		media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-solid-css'
-		href='wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3' media='all' />
+		href='{{asset('wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3')}}' media='all' />
 	<link rel='stylesheet' id='elementor-icons-fa-brands-css'
-		href='wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' media='all' />
+		href='{{asset('wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3')}}' media='all' />
 	<link rel='stylesheet' id='elementor-icons-shared-1-css'
-		href='wp-content/themes/oxence/assets/css/flaticon.min04d9.css?ver=1728014814' media='all' />
+		href='{{asset('wp-content/themes/oxence/assets/css/flaticon.min04d9.css?ver=1728014814')}}' media='all' />
 	<link rel='stylesheet' id='elementor-icons-oxence-flaticon-css'
-		href='wp-content/themes/oxence/assets/css/flaticon.min04d9.css?ver=1728014814' media='all' />
+		href='{{asset('wp-content/themes/oxence/assets/css/flaticon.min04d9.css?ver=1728014814')}}' media='all' />
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-	<script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-	<script src="wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-	<script src="wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.mine9e1.js?ver=2.7.0-wc.9.0.1"
+	<script src="{{asset('wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1')}}" id="jquery-core-js"></script>
+	<script src="{{asset('wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1')}}" id="jquery-migrate-js"></script>
+	<script src="{{assset('wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.mine9e1.js?ver=2.7.0-wc.9.0.1')}}"
 		id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
 	<script id="wc-add-to-cart-js-extra">
 		var wc_add_to_cart_params = { "ajax_url": "\/oxence\/dark\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/oxence\/dark\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/wp.webtendtheme.net\/oxence\/dark\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
 	</script>
-	<script src="wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min8257.js?ver=9.0.1"
+	<script src="{{asset('wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min8257.js?ver=9.0.1')}}"
 		id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
-	<script src="wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min7578.js?ver=2.1.4-wc.9.0.1"
+	<script src="{{asset('wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min7578.js?ver=2.1.4-wc.9.0.1')}}"
 		id="js-cookie-js" defer data-wp-strategy="defer"></script>
 	<script id="woocommerce-js-extra">
 		var woocommerce_params = { "ajax_url": "\/oxence\/dark\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/oxence\/dark\/?wc-ajax=%%endpoint%%" };
 	</script>
-	<script src="wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min8257.js?ver=9.0.1" id="woocommerce-js"
+	<script src="{{asset('wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min8257.js?ver=9.0.1')}}" id="woocommerce-js"
 		defer data-wp-strategy="defer"></script>
-	<link rel="https://api.w.org/" href="wp-json/index.html" />
-	<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/2934.json" />
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+	<link rel="https://api.w.org/" href="{{asset('wp-json/index.html')}}" />
+	<link rel="alternate" type="application/json" href="{{asset('wp-json/wp/v2/pages/2934.json')}}" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="{{asset('xmlrpc0db0.php?rsd')}}" />
 	<meta name="generator" content="WordPress 6.5.5" />
 	<meta name="generator" content="WooCommerce 9.0.1" />
-	<link rel="canonical" href="index.html" />
-	<link rel='shortlink' href='index.html' />
+	<link rel="canonical" href="{{assert('index.html')}}" />
+	<link rel='shortlink' href='{{asset('index.html')}}' />
 	<link rel="alternate" type="application/json+oembed"
-		href="wp-json/oembed/1.0/embed40cf.json?url=https%3A%2F%2Fwp.webtendtheme.net%2Foxence%2Fdark%2F" />
+		href="{{asset('wp-json/oembed/1.0/embed40cf.json?url=https%3A%2F%2Fwp.webtendtheme.net%2Foxence%2Fdark%2F')}}" />
 	<link rel="alternate" type="text/xml+oembed"
-		href="wp-json/oembed/1.0/embed7cce?url=https%3A%2F%2Fwp.webtendtheme.net%2Foxence%2Fdark%2F&amp;format=xml" />
+		href="{{asset('wp-json/oembed/1.0/embed7cce?url=https%3A%2F%2Fwp.webtendtheme.net%2Foxence%2Fdark%2F&amp;format=xml')}}" />
 	<noscript>
 		<style>
 			.woocommerce-product-gallery {
@@ -184,9 +184,9 @@
 			padding-left: 0px;
 		}
 	</style>
-	<link rel="icon" href="wp-content/uploads/sites/3/2023/02/favicon.png" sizes="32x32" />
-	<link rel="icon" href="wp-content/uploads/sites/3/2023/02/favicon.png" sizes="192x192" />
-	<link rel="apple-touch-icon" href="wp-content/uploads/sites/3/2023/02/favicon.png" />
+	<link rel="icon" href="{{asset('wp-content/uploads/sites/3/2023/02/favicon.png')}}" sizes="32x32" />
+	<link rel="icon" href="{{asset('wp-content/uploads/sites/3/2023/02/favicon.png')}}" sizes="192x192" />
+	<link rel="apple-touch-icon" href="{{asset('wp-content/uploads/sites/3/2023/02/favicon.png')}}" />
 	<meta name="msapplication-TileImage"
 		content="https://wp.webtendtheme.net/oxence/dark/wp-content/uploads/sites/3/2023/02/favicon.png" />
 	<style id="wp-custom-css">
@@ -615,7 +615,7 @@
 									data-id="0e76341" data-element_type="widget" data-widget_type="icon-list.default">
 									<div class="elementor-widget-container">
 										<link rel="stylesheet"
-											href="wp-content/uploads/sites/3/elementor/css/custom-widget-icon-list.min850d.css?ver=1719260857">
+											href="{{asset('wp-content/uploads/sites/3/elementor/css/custom-widget-icon-list.min850d.css?ver=1719260857')}}">
 										<ul class="elementor-icon-list-items elementor-inline-items">
 											<li class="elementor-icon-list-item elementor-inline-item">
 												<a href="#">
@@ -705,7 +705,7 @@
 													<li id="menu-item-1960"
 														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1960">
 														<a
-															href="https://demo.webtend.net/wp/oxence-dark/home-website-builder/"><span
+															href="{{asset('https://demo.webtend.net/wp/oxence-dark/home-website-builder/')}}"><span
 																class="link-text">Home</span><span
 																class="submenu-toggler"><i
 																	class="far fa-angle-down"></i></span></a>
@@ -853,7 +853,7 @@
 															<li
 																class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1960">
 																<a
-																	href="https://demo.webtend.net/wp/oxence-dark/home-website-builder/"><span
+																	href="{{asset('https://demo.webtend.net/wp/oxence-dark/home-website-builder/')}}"><span
 																		class="link-text">Home</span><span
 																		class="submenu-toggler"><i
 																			class="far fa-angle-down"></i></span></a>
@@ -1016,7 +1016,7 @@
 													<li
 														class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1960">
 														<a
-															href="https://demo.webtend.net/wp/oxence-dark/home-website-builder/"><span
+															href="{{asset('https://demo.webtend.net/wp/oxence-dark/home-website-builder/')}}"><span
 																class="link-text">Home</span><span
 																class="submenu-toggler"><i
 																	class="far fa-angle-down"></i></span></a>
@@ -1164,7 +1164,7 @@
 															<li
 																class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1960">
 																<a
-																	href="https://demo.webtend.net/wp/oxence-dark/home-website-builder/"><span
+																	href="{{asset('https://demo.webtend.net/wp/oxence-dark/home-website-builder/')}}"><span
 																		class="link-text">Home</span><span
 																		class="submenu-toggler"><i
 																			class="far fa-angle-down"></i></span></a>
